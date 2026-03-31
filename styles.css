@@ -1,0 +1,149 @@
+body {
+ padding: 0%;
+    margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+     background-color: aqua;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    
+}
+
+nav li {
+    text-decoration: none;
+    
+    list-style-type: none;
+    padding: 1%;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: black;
+    list-style-type: none;
+
+    
+}
+.headerm {
+    display:flex;
+    
+   
+}
+
+.headerm div{
+padding-left: 30%;
+}
+
+main {
+    color: white;
+    text-align: center;
+    padding: 2%;
+    border: solid;
+    border-radius: 15px;
+    background: linear-gradient(to right, #7b4397, #dc2430);
+    
+}
+
+#main {
+    padding: 3%;
+}
+
+#m2 {
+   text-align: center;
+}
+
+#featured {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#f1  {
+      width: 250px;
+      line-height: 1.6;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  color: black;!important
+  transition: 0.3;
+ 
+ 
+}
+
+#f1 {
+  transition: all 0.3s ease;
+}
+
+#f1:hover {
+  transform: translateY(-8px);  
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+#featured a {
+  text-decoration: none; 
+}
+
+
+#f1 strong{
+    text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    padding: 3%;
+   background-color: #1F2937;
+color: #F9FAFB;
+}
+
+#f2 {
+    line-height: 1.6;
+      width: 100%;
+  padding: 2px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-left: 5px;
+}
+
+#f2 div{
+    margin-left: 20px;
+}
+
+#rec {
+   padding: 10% 15%;
+    line-height: 1.6;
+   
+}
+
+#rec img {
+   margin-left: 40%;
+}
+
+#f3 {
+    line-height: 1.6;
+      width: 100%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-left: 5px;
+}
+
+#f3 div{
+    margin-left: 20px;
+}
